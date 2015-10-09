@@ -1,0 +1,5 @@
+spring.cloud.config.server.git.uri=file:///home/mlip/projects/config-repo
+server.port=9999
+
+spring.application.name=Config
+eureka.client.service-url.defaultZone:http://localhost:9003/eureka/
